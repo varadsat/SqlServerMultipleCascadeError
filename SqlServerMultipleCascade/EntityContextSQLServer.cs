@@ -3,7 +3,7 @@ using SqlServerMultipleCascade.Models;
 
 namespace SqlServerMultipleCascade
 {
-    public class EntityContext : DbContext
+    public class EntityContextSQLServer : DbContext
     {
      
       protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

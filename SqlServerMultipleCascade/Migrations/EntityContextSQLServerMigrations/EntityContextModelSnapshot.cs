@@ -10,7 +10,7 @@ using SqlServerMultipleCascade;
 
 namespace SqlServerMultipleCascade.Migrations
 {
-    [DbContext(typeof(EntityContext))]
+    [DbContext(typeof(EntityContextSQLServer))]
     partial class EntityContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

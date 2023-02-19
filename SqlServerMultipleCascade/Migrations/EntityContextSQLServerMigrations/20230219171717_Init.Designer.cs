@@ -11,7 +11,7 @@ using SqlServerMultipleCascade;
 
 namespace SqlServerMultipleCascade.Migrations
 {
-    [DbContext(typeof(EntityContext))]
+    [DbContext(typeof(EntityContextSQLServer))]
     [Migration("20230219171717_Init")]
     partial class Init
     {
